@@ -17,7 +17,7 @@ for (let i = 0; i < listaUtenti.length; i++) {
     // MOSTRO IL PASSO CORRENTE IN CONSOLE E UN MESSAGGIO PER IL CASO IN CUI L'UTENTE è AUTORIZZATO
     // console.log(i);
     console.log('L utente corrente è autorizzato ad accedere al sito!');
-    break;
+    break // SERVE PER USCIRE DAL CICLO E NON FARE TUTTE LE ITERAZIONI IN OGNI CASO, MA NON è NECESSARIO PER LA FUNZIONALITà DEL CICLO INTESA COME RAGGIUNGIMENTO DELL'OBBIETTIVO RICHIESTO 
 
   } else if (i === listaUtenti.length - 1) {
 
